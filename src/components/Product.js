@@ -20,7 +20,7 @@ function Product() {
       type: type,
       Price: Price,
     };
-    fetch(`http://localhost:5000/instruments`, {
+    fetch(`http://localhost:3005/instruments`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
@@ -47,10 +47,10 @@ function Product() {
   };
 
   return (
-    <div className="product">
+    <div class ="product mx-auto">
       <div className="row my-5">
         <div className="col">
-          <h3>New Product</h3>
+          <h3 class = "text-center text-4xl py-12">New Product</h3>
 
           <form onSubmit={handleSubmit}>
             <div className="mb-3">

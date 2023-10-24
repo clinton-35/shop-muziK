@@ -11,7 +11,7 @@ export default function SingleBlog() {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/instruments/${id}`)
+    fetch(`http://localhost:3005/instruments/${id}`)
       .then((res) => res.json())
       .then((res) => {
         setSingleInstrument(res);
@@ -21,7 +21,7 @@ export default function SingleBlog() {
 
   const handleDelete = () => {
     console.log(`Deleting instrument with ID: ${id}`);
-    fetch(`http://localhost:5000/instruments/${id}`, {
+    fetch(`http://localhost:3005/instruments/${id}`, {
       method: "DELETE",
     })
       .then(() => {
