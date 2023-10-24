@@ -20,7 +20,7 @@ function Product() {
       type: type,
       Price: Price,
     };
-    fetch(`https://shopmuziq-81pd.onrender.com/instruments`, {
+    fetch(`/db.json`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
@@ -47,7 +47,7 @@ function Product() {
   };
 
   return (
-    <div className="container">
+    <div className="product">
       <div className="row my-5">
         <div className="col">
           <h3>New Product</h3>

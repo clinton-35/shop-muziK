@@ -11,7 +11,7 @@ export default function SingleBlog() {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`https://shopmuziq-81pd.onrender.com/instruments/${id}`)
+    fetch(`./db.json/${id}`)
       .then((res) => res.json())
       .then((res) => {
         setSingleInstrument(res);
@@ -20,7 +20,7 @@ export default function SingleBlog() {
   }, [id]);
 
   const handleDelete = () => {
-    fetch(`https://shopmuziq-81pd.onrender.com/instruments/${id}`, {
+    fetch(`/db.json/${id}`, {
       method: "DELETE",
     })
       .then(() => {

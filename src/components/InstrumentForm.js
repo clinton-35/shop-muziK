@@ -21,7 +21,7 @@ function InstrumentForm({ instrument }) {
       Price: instrumentData.Price,
       img: instrumentData.img,
     };
-    fetch(`https://shopmuziq-81pd.onrender.com/instruments/${instrumentData.id}`, {
+    fetch(`/db.json/${instrumentData.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

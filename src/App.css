@@ -10,6 +10,9 @@
   min-height: 80vh !important;
 
 }
+.product{
+  height: 100vh;
+}
 
 .card-img-top {
   width: 100%;
@@ -26,6 +29,9 @@
 *{
   background: rgb(236, 234, 211);
 } */
+.home{
+  height: auto;
+}
 
 .navbar{
   background: rgb(212, 209, 209) !important;
@@ -41,7 +47,7 @@
 }
 
 .Contact{
-  height: 90vh;
+  height: 100vh;
   text-align:center;
 
 }

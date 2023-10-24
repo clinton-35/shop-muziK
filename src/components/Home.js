@@ -5,7 +5,7 @@ import Carousel from "./home/carousel";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <div className="landing row">
         <div className="col d-flex justify-content-center align-items-center">
           <Carousel />
