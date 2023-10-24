@@ -21,7 +21,7 @@ function InstrumentForm({ instrument }) {
       Price: instrumentData.Price,
       img: instrumentData.img,
     };
-    fetch(`/db.json/${instrumentData.id}`, {
+    fetch(`http://localhost:5000/instruments/${instrumentData.id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

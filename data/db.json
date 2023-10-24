@@ -4,22 +4,15 @@
       "id": 1,
       "type": "Classical Guitar",
       "description": "Yamaha CPX 600",
-      "Price": 12000,
+      "Price": "120000",
       "img": "data:image/jpeg;base64,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"
     },
     {
       "id": 2,
       "type": "Electric Guitars",
       "description": " Yamaha BB234",
-      "Price": 28999,
+      "Price": "28",
       "img": "https://crediblesounds.com/wp-content/uploads/2021/11/BB234-e1590467859667.jpg"
-    },
-    {
-      "id": 3,
-      "type": "Acoustic Guitar",
-      "description": "Yamaha F310",
-      "Price": 19999,
-      "img": "https://cdn-efbja.nitrocdn.com/AaPmMDCizPLKQRqhPTcWjWsFsdtTYMFh/assets/static/optimized/wp-content/uploads/2021/11/f40191b2b3a9d8dfa47a175017b8197b.YAM-FX310A-GTR.jpg"
     },
     {
       "id": 4,
@@ -74,15 +67,8 @@
       "id": 11,
       "type": "Bass Guitar",
       "description": "Yamaha TRBX304",
-      "Price": 45000,
+      "Price": "4500",
       "img": "https://cdn-efbja.nitrocdn.com/AaPmMDCizPLKQRqhPTcWjWsFsdtTYMFh/assets/images/optimized/wp-content/uploads/2023/01/832c6870e9214a0c2700140410c20c14.Candy-Apple-Red-430x430.jpg"
-    },
-    {
-      "id": 12,
-      "type": "Drum KIT 1",
-      "description": "CPK",
-      "Price": 145000,
-      "img": "https://cdn-efbja.nitrocdn.com/AaPmMDCizPLKQRqhPTcWjWsFsdtTYMFh/assets/static/optimized/wp-content/uploads/2021/11/b52ca5ca389b7abee6d636c40f14e5bd.CPK-5070-7-600x600-1-430x430.jpg"
     },
     {
       "id": 13,
@@ -118,6 +104,13 @@
       "type": "Recorder-white",
       "Price": "35000",
       "id": 17
+    },
+    {
+      "description": "erfr",
+      "img": "efrf",
+      "type": "frf",
+      "Price": "re",
+      "id": 18
     }
   ]
 }
