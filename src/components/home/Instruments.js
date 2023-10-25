@@ -5,7 +5,7 @@ function Instrument() {
   const [instrument, setInstrument] = useState([]);
 
   useEffect(() => {
-    fetch("https://shopmuziq-81pd.onrender.com/instruments", {
+    fetch("http://localhost:3005/instruments", {
       method: "GET",
     })
       .then((res) => res.json())
@@ -19,7 +19,7 @@ function Instrument() {
     <div className="instrument-collection">
       <div className="text-center">
         <h2 className="fw-bold">INSTRUMENTS</h2>
-        <h3>Have you seen our latest products???!</h3>
+        <h3 class="text-center text-4xl py-12">Have you seen our latest products ...</h3>
       </div>
 
       <div className="container mt-5">
@@ -27,11 +27,11 @@ function Instrument() {
           {instrument.length > 0 ? (
             instrument.map((data) => (
               <div className="  col-md-6 col-lg-4" key={data.id}>
-                <div className="the-card border bg-light overflow-hidden">
+                <div className="the-card border bg-light overflow-scroll">
                   <div className="card mb-4">
                     <img
                       src={data.img}
-                      className="card-img-top img-fluid rounded"
+                      className="card-img-top img-fluid  overflow-scroll"
                       alt=""
                     />
                   </div>
@@ -51,7 +51,7 @@ function Instrument() {
               </div>
             ))
           ) : (
-            <p>You dont have data at the moment</p>
+            <p>You don't have data at the moment</p>
           )}
         </div>
       </div>

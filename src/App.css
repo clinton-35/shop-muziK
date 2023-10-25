@@ -10,8 +10,19 @@
   min-height: 80vh !important;
 
 }
-.product{
-  height: 100vh;
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.product-form {
+  width: 300px; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .card-img-top {
@@ -20,6 +31,7 @@
   object-fit: cover;
 
 }
+
 
 .image{
   width: 100%;
